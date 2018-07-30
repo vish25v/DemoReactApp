@@ -1,0 +1,55 @@
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
+
+class MyComponent extends Component {
+    constructor(props) {
+        super(props);
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    componentWillMount() {
+
+    }
+
+    componentDidMount() {
+
+        this.setState((state, props) => {
+            return {
+                state
+            }
+        });
+
+    }
+
+    componentWillReceiveProps(nextProps) {
+
+    }
+
+    shouldComponentUpdate(nextProps, nextState) {
+
+    }
+
+    componentWillUpdate(nextProps, nextState) {
+
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+
+    }
+
+    componentWillUnmount() {
+
+    }
+
+    render() {
+        return (
+            <div>
+                
+            </div>
+        );
+    }
+}
+
+MyComponent.propTypes = {};
+
+export default MyComponent;
