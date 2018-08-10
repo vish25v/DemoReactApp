@@ -5,6 +5,7 @@ import Users from './users/Users';
 import User2 from './users/User2';
 import Parent from './users/Parent';
 import ButtonOne from './UIComponents/ButtonOne';
+import PureComponent1 from './UIComponents/PureComponent1';
 
 class App extends Component {
     constructor(props){
