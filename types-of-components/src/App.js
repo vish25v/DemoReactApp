@@ -6,6 +6,7 @@ import User2 from './users/User2';
 import Parent from './users/Parent';
 import ButtonOne from './UIComponents/ButtonOne';
 import PureComponent1 from './UIComponents/PureComponent1';
+import {Form, BetterForm} from './UIComponents/';
 
 class App extends Component {
     constructor(props){
@@ -99,8 +100,9 @@ class App extends Component {
         <br/><hr/>
           <div>
               <h3>HOC Example:</h3>
-              <ButtonOne disable/> &nbsp; <ButtonOne/>  
-
+              <ButtonOne disable/> &nbsp; <ButtonOne/>
+              <h3>Form:</h3> <br/>
+              <Form />
           </div>
 
       </div>
